@@ -11,9 +11,8 @@ body {
   position: absolute;
 }
 #presentation img {
-  height: 300px;
-  width: 100%;
-  object-fit: fill;
+  width: 98%;
+  border-radius: 100%;
 }
 #presentation .profil, #presentation .competence, #presentation .loisir, #presentation .soft {
   width: 90%;
@@ -27,10 +26,13 @@ body {
 }
 #presentation .profil ul li, #presentation .competence ul li, #presentation .loisir ul li, #presentation .soft ul li {
   list-style: none;
-  margin-top: 10px;
+  margin-top: 20px;
   color: white;
   font-weight: bold;
   font-size: 16px;
+}
+#presentation .profil ul li a, #presentation .competence ul li a, #presentation .loisir ul li a, #presentation .soft ul li a {
+  color: white;
 }
 
 #description {
@@ -44,6 +46,24 @@ body {
   margin: 5px;
 }
 
+@media screen and (min-width: 320px) and (max-width: 750px) {
+  #presentation {
+    position: inherit;
+    width: 100%;
+  }
+  #presentation img {
+    height: 200px;
+    width: 60%;
+  }
+  #presentation ul {
+    text-align: center;
+  }
+
+  #description {
+    margin-left: 0;
+    height: auto;
+  }
+}
 main {
   margin-left: 20%;
 }
@@ -57,18 +77,50 @@ main .experiences h2, main .formation h2 {
   width: 90%;
   text-align: center;
 }
-main .experiences li, main .formation li {
+main .experiences ul, main .formation ul {
+  padding: 0;
+}
+main .experiences ul li, main .formation ul li {
   display: flex;
   margin: 10px;
 }
-main .experiences li h4, main .experiences li h5, main .experiences li p, main .formation li h4, main .formation li h5, main .formation li p {
+main .experiences ul li h5, main .experiences ul li p, main .formation ul li h5, main .formation ul li p {
   margin: 5px;
 }
-main .experiences li h3, main .formation li h3 {
+main .experiences ul li h4, main .formation ul li h4 {
+  margin: 5px;
+  color: grey;
+}
+main .experiences ul li h3, main .formation ul li h3 {
   width: 30%;
 }
-main .experiences li .travail, main .formation li .travail {
+main .experiences ul li .travail, main .formation ul li .travail {
   width: 60%;
+}
+
+@media screen and (min-width: 320px) and (max-width: 750px) {
+  main {
+    margin-left: 0;
+  }
+  main .experiences h2, main .formation h2 {
+    margin-bottom: 0;
+  }
+  main .experiences ul, main .formation ul {
+    width: 100%;
+  }
+  main .experiences ul li, main .formation ul li {
+    flex-direction: column;
+    align-items: center;
+  }
+  main .experiences ul li h3, main .formation ul li h3 {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 5px;
+  }
+  main .experiences ul li .travail, main .formation ul li .travail {
+    width: 100%;
+    text-align: center;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
