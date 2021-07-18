@@ -92,7 +92,7 @@ main .experiences ul li h5, main .experiences ul li p, main .formation ul li h5,
 }
 main .experiences ul li h4, main .formation ul li h4 {
   margin: 5px;
-  color: grey;
+  color: #707070;
 }
 main .experiences ul li h3, main .formation ul li h3 {
   width: 30%;
