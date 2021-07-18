@@ -1,0 +1,74 @@
+body {
+  margin: 0;
+}
+
+#presentation {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 20%;
+  background-color: #2b3341;
+  position: absolute;
+}
+#presentation img {
+  height: 300px;
+  width: 100%;
+  object-fit: fill;
+}
+#presentation .profil, #presentation .competence, #presentation .loisir, #presentation .soft {
+  width: 90%;
+}
+#presentation .profil h2, #presentation .competence h2, #presentation .loisir h2, #presentation .soft h2 {
+  text-align: center;
+  color: #fdc788;
+}
+#presentation .profil ul, #presentation .competence ul, #presentation .loisir ul, #presentation .soft ul {
+  padding: 0;
+}
+#presentation .profil ul li, #presentation .competence ul li, #presentation .loisir ul li, #presentation .soft ul li {
+  list-style: none;
+  margin-top: 10px;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+#description {
+  margin-left: 20%;
+  padding: 10px;
+  background-color: #fdc788;
+  height: 150px;
+}
+#description h2, #description h1 {
+  text-align: center;
+  margin: 5px;
+}
+
+main {
+  margin-left: 20%;
+}
+main .experiences, main .formation {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+main .experiences h2, main .formation h2 {
+  border: solid;
+  width: 90%;
+  text-align: center;
+}
+main .experiences li, main .formation li {
+  display: flex;
+  margin: 10px;
+}
+main .experiences li h4, main .experiences li h5, main .experiences li p, main .formation li h4, main .formation li h5, main .formation li p {
+  margin: 5px;
+}
+main .experiences li h3, main .formation li h3 {
+  width: 30%;
+}
+main .experiences li .travail, main .formation li .travail {
+  width: 60%;
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,14 @@
+{
+  "name": "cv",
+  "version": "1.0.0",
+  "description": "cv",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch ./sass/style.scss:./css/style.css"
+  },
+  "author": "justine fidel",
+  "license": "ISC",
+  "dependencies": {
+    "sass": "^1.35.2"
+  }
+}
