@@ -19,6 +19,7 @@ body {
 }
 #presentation .profil h2, #presentation .competence h2, #presentation .loisir h2, #presentation .soft h2 {
   text-align: center;
+  margin: 2px;
   color: #fdc788;
 }
 #presentation .profil ul, #presentation .competence ul, #presentation .loisir ul, #presentation .soft ul {

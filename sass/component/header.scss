@@ -11,12 +11,12 @@ body{
     position: absolute;
     img{
         width: 98%;
-        border-radius: 100%;
     }
     .profil, .competence, .loisir, .soft{
         width: 90%;
         h2{
             text-align: center;
+            margin: 2px;
             color: $title;
         }
         ul{
