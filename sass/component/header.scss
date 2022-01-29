@@ -6,9 +6,17 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
+    // format pdf
+    // width: 30%; 
     width: 20%;
     background-color: $presentation;
     position: absolute;
+    // format pdf
+    // img{
+    //     width: 100%;
+    //     height: 260px;
+    //     object-fit: cover;
+    // } 
     img{
         width: 100%;
     }
