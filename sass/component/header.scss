@@ -10,23 +10,40 @@ body{
     background-color: $presentation;
     position: absolute;
     img{
-        width: 98%;
+        width: 100%;
     }
     .profil, .competence, .loisir, .soft{
         width: 90%;
         h2{
             text-align: center;
             margin: 2px;
-            color: $title;
+            color: $color_primary;
+        }
+        .competence_content{
+            color: white;
+            h3{
+                margin-bottom: 5px;
+                margin-top: 10px;
+                color: $color_primary;
+            }
+            i{
+                margin-top: 5px;
+            }
+            margin-bottom: 20px;
         }
         ul{
             padding: 0;
+            
             li{
                 list-style: none;
                 margin-top: 20px;
                 color: white;
                 font-weight: bold;
-                font-size: 16px;
+                font-size: 18px;
+                h3{
+                    margin-bottom: 5px;
+                    color: $color_primary;
+                }
                 a{
                     color: white;
                 }
@@ -37,11 +54,10 @@ body{
    
 }
 
-#description{
+#titre{
     margin-left: 20%;
     padding: 10px;
-    background-color: $title;
-    height: 150px;
+    background-color: $color_primary;
     h2, h1{
         text-align: center;
         margin:5px
@@ -58,12 +74,19 @@ body{
         width: 100%;
         img{
             height: 200px;
-            width: 60%;
+            object-fit: contain;
         }
         ul{
             text-align: center;
         }
+        .competence{
+            text-align: center;
+            
+        }
 
+    }
+    #titre{
+        margin-left: 0;
     }
 
     #description{
