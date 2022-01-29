@@ -137,22 +137,22 @@ main .competence_pro .competence_pro_content li, main .experiences .competence_p
   main {
     margin-left: 0;
   }
-  main .experiences h2, main .formation h2 {
+  main .experiences h2, main .formation h2, main .competence_pro h2 {
     margin-bottom: 0;
   }
-  main .experiences ul, main .formation ul {
+  main .experiences ul, main .formation ul, main .competence_pro ul {
     width: 100%;
   }
-  main .experiences ul li, main .formation ul li {
+  main .experiences ul li, main .formation ul li, main .competence_pro ul li {
     flex-direction: column;
     align-items: center;
   }
-  main .experiences ul li h3, main .formation ul li h3 {
+  main .experiences ul li h3, main .formation ul li h3, main .competence_pro ul li h3 {
     width: 100%;
     text-align: center;
     margin-bottom: 5px;
   }
-  main .experiences ul li .travail, main .formation ul li .travail {
+  main .experiences ul li .travail, main .formation ul li .travail, main .competence_pro ul li .travail {
     width: 100%;
     text-align: center;
   }
