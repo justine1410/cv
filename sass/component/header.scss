@@ -9,7 +9,10 @@ body{
     // format pdf
     // width: 30%; 
     width: 20%;
-    background-color: $presentation;
+    background: #0F2027;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+                
     position: absolute;
     // format pdf
     // img{
@@ -70,7 +73,9 @@ body{
 #titre{
     margin-left: 20%;
     padding: 10px;
-    background-color: $color_primary;
+    background: #C02425;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #F0CB35, #C02425);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #F0CB35, #C02425); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     h2, h1{
         text-align: center;
         margin:5px
