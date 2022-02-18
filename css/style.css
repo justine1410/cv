@@ -111,6 +111,7 @@ main .competence_pro, main .experiences, main .formation {
 }
 main .competence_pro a, main .experiences a, main .formation a {
   color: #BE9566;
+  text-decoration: none;
 }
 main .competence_pro h2, main .experiences h2, main .formation h2 {
   border: solid;
