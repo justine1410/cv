@@ -110,6 +110,9 @@ main .competence_pro, main .experiences, main .formation {
   flex-direction: column;
   align-items: center;
 }
+main .competence_pro p, main .experiences p, main .formation p {
+  margin: 0;
+}
 main .competence_pro a, main .experiences a, main .formation a {
   color: #BE9566;
   text-decoration: none;
@@ -127,17 +130,15 @@ main .competence_pro ul li, main .experiences ul li, main .formation ul li {
   display: flex;
   justify-content: center;
   align-items: flex-start;
-  margin: 10px;
-}
-main .competence_pro ul li p, main .experiences ul li p, main .formation ul li p {
-  margin: 5px;
+  margin: 3px;
+  width: 100%;
 }
 main .competence_pro ul li h3, main .experiences ul li h3, main .formation ul li h3 {
   margin: 0;
-  width: 30%;
+  width: 45%;
 }
 main .competence_pro ul li .travail, main .experiences ul li .travail, main .formation ul li .travail {
-  width: 60%;
+  width: 45%;
 }
 main .competence_pro .competence_pro_content, main .experiences .competence_pro_content, main .formation .competence_pro_content {
   width: 90%;
