@@ -51,7 +51,6 @@ body {
   margin-top: 20px;
   color: white;
   font-weight: bold;
-  font-size: 14px;
 }
 #presentation .profil ul li h3, #presentation .competence ul li h3, #presentation .soft ul li h3 {
   margin-bottom: 5px;
@@ -134,7 +133,6 @@ main .competence_pro ul li, main .experiences ul li, main .formation ul li {
   justify-content: center;
   align-items: flex-start;
   margin: 3px;
-  width: 100%;
 }
 main .competence_pro ul li h3, main .experiences ul li h3, main .formation ul li h3 {
   margin: 0;
@@ -144,10 +142,10 @@ main .competence_pro ul li .travail, main .experiences ul li .travail, main .for
   width: 45%;
 }
 main .competence_pro ul li .titre, main .experiences ul li .titre, main .formation ul li .titre {
-  width: 40%;
+  width: 50%;
 }
 main .competence_pro ul li .adresse, main .experiences ul li .adresse, main .formation ul li .adresse {
-  width: 60%;
+  width: 50%;
 }
 main .competence_pro .competence_pro_content, main .experiences .competence_pro_content, main .formation .competence_pro_content {
   width: 90%;
