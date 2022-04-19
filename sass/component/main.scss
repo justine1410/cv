@@ -3,8 +3,7 @@ main{
     // margin-left: 30%;
     margin-left: 20%;
 
-    
-    .competence_pro, .experiences, .formation{
+    .competence_pro,.experiences, .formation{
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -29,15 +28,19 @@ main{
                 align-items: flex-start;
                 margin: 3px;
                 width: 100%;
-                
-               
-
                 h3{
                     margin:0;
                     width: 45%;
                 }
                 .travail{
                     width: 45%;
+                }
+                .titre{
+                    width: 40%;
+                }
+                .adresse{
+                    width: 60%;
+                    
                 }
             }
     

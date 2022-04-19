@@ -1,5 +1,7 @@
 body {
   margin: 0;
+  color: #828282;
+  font-family: Montserrat;
 }
 
 #presentation {
@@ -7,11 +9,11 @@ body {
   flex-direction: column;
   align-items: center;
   width: 20%;
-  background: #0F2027;
+  background: #fd1d1d;
   /* fallback for old browsers */
-  background: -webkit-linear-gradient(to top, #2C5364, #203A43, #0F2027);
+  background: -webkit-linear-gradient(150deg, #fd1d1d 0%, #96369d 100%);
   /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to top, #2C5364, #203A43, #0F2027);
+  background: linear-gradient(150deg, #fd1d1d 0%, #96369d 100%);
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   padding-bottom: 69px;
   position: absolute;
@@ -64,14 +66,15 @@ body {
   padding: 10px;
   background: #C02425;
   /* fallback for old browsers */
-  background: -webkit-linear-gradient(to left, #F0CB35, #C02425);
+  background: -webkit-linear-gradient(150deg, #fd1d1d 0%, #96369d 100%);
   /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to left, #F0CB35, #C02425);
+  background: linear-gradient(150deg, #fd1d1d 0%, #96369d 100%);
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 #titre h2, #titre h1 {
   text-align: center;
   margin: 5px;
+  color: white;
 }
 #titre p {
   text-align: center;
@@ -139,6 +142,12 @@ main .competence_pro ul li h3, main .experiences ul li h3, main .formation ul li
 }
 main .competence_pro ul li .travail, main .experiences ul li .travail, main .formation ul li .travail {
   width: 45%;
+}
+main .competence_pro ul li .titre, main .experiences ul li .titre, main .formation ul li .titre {
+  width: 40%;
+}
+main .competence_pro ul li .adresse, main .experiences ul li .adresse, main .formation ul li .adresse {
+  width: 60%;
 }
 main .competence_pro .competence_pro_content, main .experiences .competence_pro_content, main .formation .competence_pro_content {
   width: 90%;
