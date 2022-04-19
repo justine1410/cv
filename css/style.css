@@ -8,7 +8,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 30%;
+  width: 20%;
   background: #fd1d1d;
   /* fallback for old browsers */
   background: -webkit-linear-gradient(150deg, #fd1d1d 0%, #96369d 100%);
