@@ -10,23 +10,23 @@ body{
     flex-direction: column;
     align-items: center;
     // format pdf
-    // width: 30%; 
-    width: 20%;
+    width: 30%; 
+    // width: 20%;
     background: #fd1d1d;  /* fallback for old browsers */
     background: -webkit-linear-gradient(150deg, #fd1d1d 0%, #96369d 100%);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(150deg, #fd1d1d 0%, #96369d 100%); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     padding-bottom: 69px;            
     position: absolute;
     // format pdf
-    // img{
-    //     width: 100%;
-    //     height: 260px;
-    //     object-fit: cover;
-    // } 
-
     img{
         width: 100%;
-    }
+        height: 260px;
+        object-fit: cover;
+    } 
+
+    // img{
+    //     width: 100%;
+    // }
    
     .profil, .competence, .soft{
         width: 90%;
