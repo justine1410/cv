@@ -8,7 +8,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 20%;
+  width: 30%;
   background: #fd1d1d;
   /* fallback for old browsers */
   background: -webkit-linear-gradient(150deg, #fd1d1d 0%, #96369d 100%);
@@ -107,7 +107,7 @@ body {
   }
 }
 main {
-  margin-left: 40%;
+  margin-left: 60%;
 }
 main .competence_pro, main .experiences, main .formation {
   display: flex;
