@@ -2,7 +2,7 @@ body {
   margin: 0;
   color: #828282;
   font-family: Montserrat;
-  font-size: 26px;
+  font-size: 18px;
 }
 
 #presentation {
@@ -10,12 +10,6 @@ body {
   flex-direction: column;
   align-items: center;
   width: 20%;
-  background: #fd1d1d;
-  /* fallback for old browsers */
-  background: -webkit-linear-gradient(150deg, #fd1d1d 0%, #96369d 100%);
-  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(150deg, #fd1d1d 0%, #96369d 100%);
-  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   padding-bottom: 69px;
   position: absolute;
 }
@@ -33,7 +27,6 @@ body {
   color: #fdc788;
 }
 #presentation .profil .competence_content, #presentation .competence .competence_content, #presentation .soft .competence_content {
-  color: white;
   margin-bottom: 20px;
 }
 #presentation .profil .competence_content h3, #presentation .competence .competence_content h3, #presentation .soft .competence_content h3 {
@@ -42,15 +35,13 @@ body {
 }
 #presentation .profil .competence_content i, #presentation .competence .competence_content i, #presentation .soft .competence_content i {
   margin-top: 5px;
-  color: white;
 }
 #presentation .profil ul, #presentation .competence ul, #presentation .soft ul {
   padding: 0;
 }
 #presentation .profil ul li, #presentation .competence ul li, #presentation .soft ul li {
   list-style: none;
-  margin-top: 20px;
-  color: white;
+  margin-top: 18px;
   font-weight: bold;
 }
 #presentation .profil ul li h3, #presentation .competence ul li h3, #presentation .soft ul li h3 {
@@ -58,23 +49,18 @@ body {
   color: #fdc788;
 }
 #presentation .profil ul li a, #presentation .competence ul li a, #presentation .soft ul li a {
-  color: white;
+  color: #828282;
+  text-decoration: none;
 }
 
 #titre {
   margin-left: 20%;
   padding: 10px;
-  background: #C02425;
-  /* fallback for old browsers */
-  background: -webkit-linear-gradient(150deg, #fd1d1d 0%, #96369d 100%);
-  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(150deg, #fd1d1d 0%, #96369d 100%);
-  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 #titre h2, #titre h1 {
   text-align: center;
   margin: 5px;
-  color: white;
+  color: #fdc788;
 }
 #titre p {
   text-align: center;
